@@ -20,7 +20,7 @@ if errorlevel 1 (
 @REM git config --global user.email "sagargondaliya50@gmail.com"
 @REM git config --global user.name "sagar610"
 REM Pull the latest changes from the remote repository
-git pull origin main --rebase
+@REM git pull origin main --rebase
 
 git push -u origin main
 
