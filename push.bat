@@ -20,9 +20,9 @@ if errorlevel 1 (
 @REM git config --global user.email "sagargondaliya50@gmail.com"
 @REM git config --global user.name "sagar610"
 REM Pull the latest changes from the remote repository
-@REM git pull origin main --rebase
+git pull origin main --rebase
 
-@REM git push -u origin main
+git push -u origin main
 
 REM Check if the current branch is 'main', otherwise, rename it
 for /f "delims=" %%i in ('git rev-parse --abbrev-ref HEAD') do set branch=%%i
